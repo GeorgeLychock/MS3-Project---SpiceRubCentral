@@ -1,0 +1,79 @@
+/* george lychock MS3 stylesheet */
+/* NOTES:
+    - Except for base html elements, common colors, and Bootstrap styles, all other custom selectors names begin with "us" to make it easier to see in the markup */
+
+
+/* ######## CSS TOC - In Order of Appearance: */
+/* @imports */
+/* Bootstrap Overides */
+/* Base Elements */
+/* Common Text Colors */
+/* Common Background Colors*/
+/* Common Button Colors*/
+/* Spacers */
+/* Font Styles */
+/* Common Positioning */
+/* Common Other*/
+/* Buttons */
+/* Nav */
+/* Banner */
+/* Header */
+/* Mobile Library Dropdown */
+/* Project Form */
+/* Dashboard */
+/* Dashboard Panels */
+/* Active Projects Dashboard /*
+/* Active Widgets Dashboard */
+/* Progress Bar */
+/* Widget Library */
+/* Footer */
+/* Social Links */
+/* @media */
+/* Color Schemes */
+
+
+
+
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap');
+
+/* Bootstrap Overides */
+button:focus {
+    outline: none;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
