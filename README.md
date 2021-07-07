@@ -38,7 +38,4 @@ uSpice is a spice rub recipe utility to help users build and buy spice rubs they
 >
 > ### Notes
 >
->-   The primary focus of this project is to display JavaScript, jQuery, and API skills learned in the Interactive Frontend Development Module of the Salem State University / Code Institute Full Stack Software Developer Certificate Program. The website will have limited styling and content since functionality takes precedence under the time constraints.
->-   This is a front-end website that gives the user methods to add content and change appearance.
->-   The project consists of one page, a dashboard.
->-   Navbar, banner, and footer sections exist
+>-   The primary focus of this project is to display Python and database skills learned in the Python Essentials Module of the Salem State University / Code Institute Full Stack Software Developer Certificate Program. 
