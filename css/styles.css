@@ -48,13 +48,41 @@ button:focus {
   }
 
 
+/* Common Positioning */
+.us-text-center {
+    text-align: center;
+}
 
+/* Banner */
+.us-banner-top {
+    text-align: center;
+    background-color: antiquewhite;
+}
 
+/* header */
+#logo-image {
+    background: url("https://www.georgelychock-career.com/pages/_sandbox/MS3/images/logo.png") no-repeat center center;
+    height: 800px;
+    width: 100%;
+    animation: logo-zoom 5s forwards;
+  }
+  
+  
+  @keyframes logo-zoom {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(.25) translate(-150%, -125%) rotate(0.25turn);
+    }
+  }
 
-
-
-
-
+#logo-outer {
+    height: 1000px;
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+}
 
 
 
