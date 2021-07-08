@@ -64,7 +64,7 @@ button:focus {
     background: url("https://www.georgelychock-career.com/pages/_sandbox/MS3/images/logo.png") no-repeat center center;
     height: 800px;
     width: 100%;
-    animation: logo-zoom 5s forwards;
+    animation: logo-zoom 4s forwards;
   }
   
   
@@ -82,9 +82,17 @@ button:focus {
     width: 1000px;
     overflow: hidden;
     position: relative;
+    animation: logo-outer 4s forwards;
 }
 
-
+@keyframes logo-outer {
+    from {
+        height: 1000px;
+    }
+    to {
+        height: 300px;
+    }
+  }
 
 
 
