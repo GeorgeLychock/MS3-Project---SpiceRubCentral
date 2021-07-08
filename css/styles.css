@@ -47,6 +47,19 @@ button:focus {
     box-sizing: content-box;
   }
 
+  /* Base Elements */
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Montserrat', 'FreeSans', sans-serif;
+}
 
 /* Common Positioning */
 .us-text-center {
@@ -59,10 +72,10 @@ button:focus {
     background-color: antiquewhite;
 }
 
-/* header */
+/* Header */
 #logo-image {
-    background: url("https://www.georgelychock-career.com/pages/_sandbox/MS3/images/logo.png") no-repeat center center;
-    height: 800px;
+    background: url("https://www.georgelychock-career.com/pages/_sandbox/MS3/images/logo.svg") no-repeat center center;
+    height: 1000px;
     width: 100%;
     animation: logo-zoom 4s forwards;
   }
@@ -73,13 +86,13 @@ button:focus {
       transform: scale(1);
     }
     to {
-      transform: scale(.25) translate(-150%, -125%) rotate(0.25turn);
+      transform: scale(.25) translate(-125%, -125%) rotate(90deg);
     }
   }
 
 #logo-outer {
     height: 1000px;
-    width: 1000px;
+    width: 800px;
     overflow: hidden;
     position: relative;
     animation: logo-outer 4s forwards;
@@ -94,10 +107,33 @@ button:focus {
     }
   }
 
+/* Highest Rated */
+.us-btn-rated-a {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 100% !important;
+    width: 160px;
+    height: 160px;
+    font-size: 1rem !important;
+}
 
+.us-btn-rated-b {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 100% !important;
+    width: 120px;
+    height: 120px;
+    font-size: .9rem !important;
+}
 
-
-
+.us-btn-rated-c {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 100% !important;
+    width: 80px;
+    height: 80px;
+    font-size: .8rem !important;
+}
 
 
 

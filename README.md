@@ -38,4 +38,15 @@ uSpice is a spice rub recipe utility to help users build and buy spice rubs they
 >
 > ### Notes
 >
->-   The primary focus of this project is to display Python and database skills learned in the Python Essentials Module of the Salem State University / Code Institute Full Stack Software Developer Certificate Program. 
+>-   The primary focus of this project is to display Python and database skills learned in the Python Essentials Module of the Salem State University / Code Institute Full Stack Software Developer Certificate Program.
+
+<a name="BUGS"></a>
+## Bugs / Fixes
+### Known Bugs
+#### OPEN 
+-   Logo animation bumps banner and header containers to the right while in motion on desktop
+
+#### FIXED
+-   Library Buttons:
+    -   A black box appears ....
+        -   FIX: 
