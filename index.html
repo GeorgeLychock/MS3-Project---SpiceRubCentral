@@ -8,15 +8,11 @@
         content="uSpice is a spice rub recipe utility to help users build and buy spice rubs they like.">
     <meta name="author" content="George Lychock">
 
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-
-
+    <link href="css/svg-styles.css" rel="stylesheet" type="text/css">
 
     <title>George Lychock's MS3 Project - uSpice</title>
     <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
@@ -34,15 +30,42 @@
         </div>
         <!-- Header -->
         <header>
+            <!-- Logo and Nav -->
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-6 col-lg-3 us-text-center">
+                    <!-- User Menu - Mobile -->
+                    <div class="d-md-none">
+                        <div class="col-12 col-lg-3 us-text-center us-user-menu-box">
+                            <div class="">Hello George!</div>
+                            <ul class="nav flex-row">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="bi bi-tools us-menu-link-01 us-i-color-01"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="bi bi-cart2 us-menu-link-01 us-i-color-01"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="bi bi-info-circle us-menu-link-01 us-i-color-01"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="bi bi-person us-menu-link-01 us-i-color-01"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 us-text-center">
                         <div id="logo-outer">
                             <div id="logo-image"></div>
                         </div>
-                        <div> and Nav Menu</div>
+                        <div>
+                            <button type="button" class="btn btn-outline-success us-nav-btn">Build Recipes</button>
+                            <button type="button" class="btn btn-outline-success us-nav-btn">Recipe Ratings</button>
+                            <button type="button" class="btn btn-outline-success us-nav-btn">Rate a Recipe</button>
+                            <button type="button" class="btn btn-outline-success us-nav-btn">Buy</button>
+                        </div>
                     </div>
-                    <div class="col-12 col-lg-6 us-text-center">
+                    <!-- Highest Rated -->
+                    <div class="col-12 col-lg-6 us-text-center us-high-rated-box">
                         Highest Rated Spice Recipes
                         <div class="btn-group btn-group-lg" role="group" aria-label="...">
                             <button type="button" class="btn btn-outline-secondary us-btn-rated-a">George's Kick Ass Cajun Rub</button>
@@ -60,23 +83,24 @@
                             <button type="button" class="btn btn-outline-secondary us-btn-rated-c">Crunchy Balls Coating</button>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 us-text-center">
-                        User Menu
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Active</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <!-- User Menu - Desktop -->
+                        <div class="col-6 col-lg-3 us-text-center us-user-menu-box">
+                            <div class="">Hello George!</div>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="bi bi-tools us-menu-link-01 us-i-color-01"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="bi bi-cart2 us-menu-link-01 us-i-color-01"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="bi bi-info-circle us-menu-link-01 us-i-color-01"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="bi bi-person us-menu-link-01 us-i-color-01"></i></a>
+                                </li>
+                            </ul>
+                        </div>
                 </div>
             </div>
         </header>

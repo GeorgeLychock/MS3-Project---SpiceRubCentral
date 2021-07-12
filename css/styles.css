@@ -43,6 +43,10 @@ button:focus {
     outline: none;
 }
 
+.btn-outline-success {
+  margin: 5px;
+}
+
 .selector-for-some-widget {
     box-sizing: content-box;
   }
@@ -54,11 +58,14 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-
-
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-family: 'Montserrat', 'FreeSans', sans-serif;
+}
+
+
+.us-i-color-01 {
+  color: #93d49d;
 }
 
 /* Common Positioning */
@@ -73,60 +80,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Header */
-#logo-image {
-    background: url("https://www.georgelychock-career.com/pages/_sandbox/MS3/images/logo.svg") no-repeat center center;
-    height: 1000px;
-    width: 100%;
-    animation: logo-zoom 4s forwards;
-  }
-  
-  
-  @keyframes logo-zoom {
-    from {
-      transform: scale(1);
-    }
-    to {
-      transform: scale(.25) translate(-125%, -125%) rotate(90deg);
-    }
-  }
 
-#logo-outer {
-    height: 1000px;
-    width: 800px;
-    overflow: hidden;
-    position: relative;
-    animation: logo-outer 4s forwards;
-}
-
-@keyframes logo-outer {
-    from {
-        height: 1000px;
-    }
-    to {
-        height: 300px;
-    }
-  }
 
 /* Highest Rated */
 .us-btn-rated-a {
     margin: 10px;
     padding: 5px;
     border-radius: 100% !important;
-    width: 160px;
-    height: 160px;
-    font-size: 1rem !important;
-}
-
-.us-btn-rated-b {
-    margin: 10px;
-    padding: 5px;
-    border-radius: 100% !important;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     font-size: .9rem !important;
 }
 
-.us-btn-rated-c {
+.us-btn-rated-b {
     margin: 10px;
     padding: 5px;
     border-radius: 100% !important;
@@ -135,9 +101,115 @@ h1, h2, h3, h4, h5, h6 {
     font-size: .8rem !important;
 }
 
+.us-btn-rated-c {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 100% !important;
+    width: 60px;
+    height: 60px;
+    font-size: .7rem !important;
+}
 
+/* @Media Styles */
+@media only screen and (min-width: 992px) {
+  /* Highest Rated */
+  .us-btn-rated-a {
+          margin: 10px;
+          padding: 5px;
+          border-radius: 100% !important;
+          width: 160px;
+          height: 160px;
+          font-size: 1rem !important;
+      }
+  
+      .us-btn-rated-b {
+          margin: 10px;
+          padding: 5px;
+          border-radius: 100% !important;
+          width: 120px;
+          height: 120px;
+          font-size: .9rem !important;
+      }
+  
+      .us-btn-rated-c {
+          margin: 10px;
+          padding: 5px;
+          border-radius: 100% !important;
+          width: 80px;
+          height: 80px;
+          font-size: .8rem !important;
+      }
+  
+      #logo-image {
+          background: url("https://www.georgelychock-career.com/pages/_sandbox/MS3/images/logo-1000.png") no-repeat center center;
+          background-size: 400px 500px;
+          height: 500px;
+          width: 400px;
+        }
+      
+      #logo-outer {
+          height: 600px;
+          width: 400px;
+          overflow: hidden;
+          position: relative;
+      }
 
+      .us-high-rated-box {
+        padding: 100px 0 0 100px;
+      }
 
+      .us-user-menu-box {
+        padding-top: 60px;
+      }
+
+      .us-menu-link-01 {
+        font-size: 1.25rem;
+      }
+}
+
+/* @Media Styles */
+@media only screen and (max-width: 712px) {
+  #logo-image {
+    background: url("https://www.georgelychock-career.com/pages/_sandbox/MS3/images/logo-1000.png") no-repeat center center;
+    height: 1000px;
+    width: 800px;
+    animation: logo-zoom 4s forwards;
+  }
+  
+  @keyframes logo-zoom {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(.25) translate(-1000px, -1400px) rotate(90deg);
+    }
+  }
+
+  #logo-outer {
+      height: 1000px;
+      width: 800px;
+      margin-bottom: 20px;
+      overflow: hidden;
+      position: relative;
+      animation: logo-outer 4s forwards;
+  }
+
+  @keyframes logo-outer {
+    from {
+        height: 1000px;
+        width: 800px;
+    }
+    to {
+        height: 250px;
+        width: 300px;
+    }
+  }
+
+  .us-nav-btn {
+    font-size: .8rem;
+  }
+
+}
 
 
 
