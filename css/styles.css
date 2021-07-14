@@ -110,65 +110,72 @@ h1, h2, h3, h4, h5, h6 {
     font-size: .7rem !important;
 }
 
+/* User Panel */
+
+
 /* @Media Styles */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1072px) {
   /* Highest Rated */
+  #logo-image {
+      background: url("https://www.georgelychock-career.com/pages/_sandbox/MS3/images/logo-1000.png") no-repeat center center;
+      background-size: 400px 500px;
+      height: 500px;
+      width: 400px;
+  }
+  
+  #logo-outer {
+      height: 600px;
+      width: 400px;
+      overflow: hidden;
+      position: relative;
+  }
+
   .us-btn-rated-a {
-          margin: 10px;
-          padding: 5px;
-          border-radius: 100% !important;
-          width: 160px;
-          height: 160px;
-          font-size: 1rem !important;
-      }
-  
-      .us-btn-rated-b {
-          margin: 10px;
-          padding: 5px;
-          border-radius: 100% !important;
-          width: 120px;
-          height: 120px;
-          font-size: .9rem !important;
-      }
-  
-      .us-btn-rated-c {
-          margin: 10px;
-          padding: 5px;
-          border-radius: 100% !important;
-          width: 80px;
-          height: 80px;
-          font-size: .8rem !important;
-      }
-  
-      #logo-image {
-          background: url("https://www.georgelychock-career.com/pages/_sandbox/MS3/images/logo-1000.png") no-repeat center center;
-          background-size: 400px 500px;
-          height: 500px;
-          width: 400px;
-        }
-      
-      #logo-outer {
-          height: 600px;
-          width: 400px;
-          overflow: hidden;
-          position: relative;
-      }
+    margin: 10px;
+    padding: 5px;
+    border-radius: 100% !important;
+    width: 160px;
+    height: 160px;
+    font-size: 1rem !important;
+  }
 
-      .us-high-rated-box {
-        padding: 100px 0 0 100px;
-      }
+  .us-btn-rated-b {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 100% !important;
+  width: 120px;
+  height: 120px;
+  font-size: .9rem !important;
+  }
 
-      .us-user-menu-box {
-        padding-top: 60px;
-      }
+  .us-btn-rated-c {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 100% !important;
+  width: 80px;
+  height: 80px;
+  font-size: .8rem !important;
+  }
 
-      .us-menu-link-01 {
-        font-size: 1.25rem;
-      }
+  .us-nav-btn {
+    border-color: rgba(147, 212, 157, .75);
+  }
+
+  .us-high-rated-box {
+    padding: 100px 0 0 100px;
+  }
+
+  .us-user-menu-box {
+    padding-top: 60px;
+  }
+
+  .us-user-menu-link-01 {
+    font-size: 1.25rem;
+  }
 }
 
 /* @Media Styles */
-@media only screen and (max-width: 712px) {
+@media only screen and (max-width: 1024px) {
   #logo-image {
     background: url("https://www.georgelychock-career.com/pages/_sandbox/MS3/images/logo-1000.png") no-repeat center center;
     height: 1000px;
@@ -207,6 +214,16 @@ h1, h2, h3, h4, h5, h6 {
 
   .us-nav-btn {
     font-size: .8rem;
+    border-color: rgba(147, 212, 157, .75);
+  }
+
+  .us-high-rated-box {
+    padding: 20px 0 0 0;
+  }
+
+  .us-user-name {
+    float: right;
+    padding-top: 4px;
   }
 
 }
