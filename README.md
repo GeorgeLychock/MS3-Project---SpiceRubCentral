@@ -40,6 +40,17 @@ uSpice is a spice rub recipe utility to help users build and buy spice rubs they
 >
 >-   The primary focus of this project is to display Python and database skills learned in the Python Essentials Module of the Salem State University / Code Institute Full Stack Software Developer Certificate Program.
 
+<a name="DES"></a>
+## Design
+<a name="WF"></a>
+### Wireframes
+
+<a name="TECH"></a>
+## Technical Background
+### Data Structures and Dataflow
+-   Data Structure Mapping - [View](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/georgelychock-career-desk-01.pdf)
+
+
 <a name="BUGS"></a>
 ## Bugs / Fixes
 ### Known Bugs
