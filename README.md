@@ -42,46 +42,56 @@ When I buy expensive pre-made spice rubs I rarely know what all the ingredients 
 ## User Stories
 
 -   ### Anonymous, or Logged In, User Experience
-    -   **Story 1** As a Site Visitor, I want to be able to search recipes by using a quick search method.
+    -   #### **Story 1** As a Site Visitor, I want to be able to search recipes by using a quick search method.
         -  #### *Acceptance Criteria* -- Duplicated in Testing Section
             1.  A search form is presented without leaving the home page
             2.  A minimal number of search criteria is presented to choose from
             3.  A results page is presented when the criteria is submitted
-    -   **Story 2** As a Site Visitor, I want to see results of my search on a new page that offers sortable headers.
-    -  #### *Acceptance Criteria* -- Duplicated in Testing below
-        1.  Results are displayed in a list, with recipe title, date posted, base ingredient
-        2.  The list can be sorted by active headers
-        3.  A recipe has a clickable link to display the recipe details
-
-    -   **Story 3** As a Site Visitor, I want to see recipe details displayed on a recipe detail page
+            
+    -   #### **Story 2** As a Site Visitor, I want to see results of my search on a new page that offers sortable headers.
         -  #### *Acceptance Criteria* -- Duplicated in Testing below
-            Recipe page includes the following details:
-            -   a.  Recipe Name
-                b.  Author
-                c.  Ingredients
-                d.  Description
-                e.  Instructions (commentary)
+            1.  Results are displayed in a list, with recipe title, date posted, base ingredient
+            2.  The list can be sorted by active headers
+            3.  A recipe has a clickable link to display the recipe details
 
-    -   **Story 4** As a Site Visitor, I want to have a similar experience whether desktop, tablet, or mobile, so that I can later access information in a similar manner if I change devices.
+    -   #### **Story 3** As a Site Visitor, I want to see recipe details displayed on a recipe detail page
+        -  #### *Acceptance Criteria* -- Duplicated in Testing below
+            -   Recipe page includes the following details:
+                1.  Recipe Name
+                2.  Author
+                3.  Ingredients
+                4.  Description
+                5.  Instructions (commentary)
+
+    -   #### **Story 4** As a Site Visitor, I want to have a similar experience whether desktop, tablet, or mobile, so that I can later access information in a similar manner if I change devices.
         -  #### *Acceptance Criteria* -- Duplicated in Testing below
             1.  All content has to be accessible from desktop, tablet, or mobile device.
+            2.  All images should have alt text
+            3.  Icons should be consistent across viewports
+            4.  Indentation (margins and padding) should be structurally similar across viewports
+            5.  Pages and sections use the same names throughout the site ie when referring to Work History, it's not later referred to Work Experience or Job Summary etc somewhere else in the site or on site nav
+            6.  All fonts are consistent for each section and element across all viewports
+            7.  All documents and links to external sites should open a new tab in the browser
+            8.  Any page or internal site links should never open a new browser tab
 
 -   ### Logged In Only User Experience
-    -   **Story 5** As a Recruiter, I want to easily und
+    -   #### **Story 5** As a Recruiter, I want to easily und
 
 -   ### Administrator User Experience
-    -   **Story 6** As a Site Administrator, I want to be able to regulate the number of postings for any user globally
+    -   #### **Story 6** As a Site Administrator, I want to be able to regulate the number of postings for any user globally
         -  #### *Acceptance Criteria* -- Duplicated in Testing Section
             1.  A search form is
 
 
 <a name="REQS"></a>
 ## Requirements
+(Alignments to User Stories are in paratheses)
 -   Application must be responsive and fully functional to use on any device (US4)
 -   Allow users to search recipes, using a quick search (US1)
 -   Allow users to search recipes, using an advanced search
 -   Monitor/regulate the number of recipes a user can upload per day
--   Allow users to view details about the recipe including an image
+-   Show users the results of the search criteria (US2)
+-   Allow users to view details about the recipe including an image (US3)
 -   Allow users to rate a recipe
 -   Allow users to view top 10 rated recipes
 -   Allow users to print a printable version of the recipe/pie chart
