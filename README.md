@@ -43,7 +43,7 @@ When I buy expensive pre-made spice rubs I rarely know what all the ingredients 
 
 ## User Stories
 
--   ### Anonymous, or Logged In, User Experience
+-   ### Anonymous AND Logged In User Experience
     -   #### **Story 1** As a Site Visitor, I want to be able to search recipes by using a quick search method.
         -  #### *Acceptance Criteria* -- Duplicated in Testing Section
             1.  A search form is presented without leaving the home page
@@ -82,7 +82,7 @@ When I buy expensive pre-made spice rubs I rarely know what all the ingredients 
             2.  The search form allows input for recipe name, author, main ingredient, and date
             3. The submit button displays a results list/table on the advanced search page
 
--   ### Logged In Only User Experience
+-   ### ONLY Logged In User Experience
     -   #### **Story 6** As a visiting user, I want the ability to log in and log out so I can gain access to features that are only for logged in users.
     -  #### *Acceptance Criteria* -- Duplicated in Testing Section
         1.  User can create a profile and log in
@@ -128,7 +128,7 @@ When I buy expensive pre-made spice rubs I rarely know what all the ingredients 
     <a name="UI"></a>
     -   ### Wireframes
         <a name="UIWF"></a>
-        -   UI Map - [View](https://github.com/GeorgeLychock/MS3-Project---uSpice/blob/master/_documentation/wireframes/Site-UI-Map-.jpg)
+        -   UI Map (Site Map aligned to data structures and functions) - [View](https://github.com/GeorgeLychock/MS3-Project---uSpice/blob/master/_documentation/wireframes/Site-UI-Map-.jpg)
     -   ### Sprints
         -   UI Sprint Map - [View](https://github.com/GeorgeLychock/MS3-Project---uSpice/blob/master/_documentation/wireframes/Site-UI-Sprints-.jpg)
 
@@ -137,9 +137,23 @@ When I buy expensive pre-made spice rubs I rarely know what all the ingredients 
     <a name="DES"></a>
     -   ### Wireframes
         <a name="UXWF"></a>
-        -   Desktop and Tablet Wireframe - [View](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/georgelychock-career-desk-01.pdf)
+        -   Home Page - Desktop and Tablet Wireframe - [View](https://github.com/GeorgeLychock/MS3-Project---uSpice/blob/master/_documentation/wireframes/p1-uSpice-desktop-home-page.jpg)
 
-        -   Mobile Wireframe (No Scrolling Home Version) - [View](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/georgelychock-career-smart-01-no-scrolling-home.pdf)
+        -   Home Page - Mobile Wireframe - [View](https://github.com/GeorgeLychock/MS3-Project---uSpice/blob/master/_documentation/wireframes/p2-uSpice-mobile-home-page.jpg)
+
+        -   Advanced Search Page - Desktop and Tablet Wireframe - [View](https://github.com/GeorgeLychock/MS3-Project---uSpice/blob/master/_documentation/wireframes/p3-uSpice-desktop-advanced-search-page.jpg)
+
+        -   Advanced Search Page - Mobile Wireframe - [View](https://github.com/GeorgeLychock/MS3-Project---uSpice/blob/master/_documentation/wireframes/p4-uSpice-mobile-advanced-search-page.jpg)
+
+        -   Recipe View Page - Bar Chart - Desktop and Tablet Wireframe - [View](https://github.com/GeorgeLychock/MS3-Project---uSpice/blob/master/_documentation/wireframes/p5-uSpice-desktop-recipe-page-1.jpg)
+
+        -   Recipe View Page - Pie Chart - Desktop and Tablet Wireframe - [View](https://github.com/GeorgeLychock/MS3-Project---uSpice/blob/master/_documentation/wireframes/p5-uSpice-desktop-recipe-page-2.jpg)
+
+        -   Recipe View Page - Mobile Wireframe - [View](https://github.com/GeorgeLychock/MS3-Project---uSpice/blob/master/_documentation/wireframes/p6-uSpice-mobile-recipe-page.jpg)
+
+        -   Recipe Build Page - Desktop and Tablet Wireframe - [View](https://github.com/GeorgeLychock/MS3-Project---uSpice/blob/master/_documentation/wireframes/p7-uSpice-desktop-build-recipe-page.jpg)
+
+        -   Recipe Build Page - Mobile Wireframe - [View](https://github.com/GeorgeLychock/MS3-Project---uSpice/blob/master/_documentation/wireframes/p8-uSpice-mobile-build-recipe-page.jpg)
 
 
 <a name="TECH"></a>
