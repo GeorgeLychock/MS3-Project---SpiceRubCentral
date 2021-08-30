@@ -83,22 +83,39 @@ When I buy expensive pre-made spice rubs I rarely know what all the ingredients 
             3. The submit button displays a results list/table on the advanced search page
 
 -   ### ONLY Logged In User Experience
-    -   #### **Story 6** As a visiting user, I want the ability to log in and log out so I can gain access to features that are only for logged in users.
+    -   #### **Story 6** As a Site Visitor, I want the ability to log in and log out so I can gain access to features that are only for logged in users.
     -  #### *Acceptance Criteria* -- Duplicated in Testing Section
         1.  User can create a profile and log in
         2.  The profile is a user name and a valid email address
         3.  Once logged in, access to rate and build recipes is provided
         4.  User can log out
 
-    -   #### **Story 7** As a logged in user I want to be able to rate recipes.
+    -   #### **Story 7** As a Logged In User, I want the ability to create my own recipe and upload to the app.
+    -  #### *Acceptance Criteria* -- Duplicated in Testing below
+        -   User Input should include the following:
+            1.  Recipe Name
+            2.  Author
+            3.  Ingredients
+            4.  Cuisine
+            5.  Preparation (commentary)
+            6.  Flavor Profile
+            7.  Recipe Image Selection (from a predefined set)
+        -   User can save recipe
+        -   User is routed to the recipe view page once submitted
+        -   User can update the recipe
+        -   User can delete the recipe
+
+    -   #### **Story 8** As a Logged In User and on the Recipe View page, I want the ability to view a graphcal representation of my recipe ingredient breakdown.
+    -  #### *Acceptance Criteria* -- Duplicated in Testing below
+        -   User is shown or presented a method to show a grphic depicting the recipe's ingredient ratios
+
+    -   #### **Story 9** As a Logged In User I want to be able to rate recipes.
     -  #### *Acceptance Criteria* -- Duplicated in Testing Section
         1.  User can rate a recipe with a simple 5 star system when logged in and on the recipe page
         2.  A user cannot rate a recipe if they are not logged in
 
-
-
 -   ### Administrator User Experience
-    -   #### **Story 8** As a Site Administrator, I want to be able to regulate the number of postings for any user globally
+    -   #### **Story 10** As a Site Administrator, I want to be able to regulate the number of postings for any user globally
         -  #### *Acceptance Criteria* -- Duplicated in Testing Section
             1.  App only allows any user to upload 5 recipes a day
 
